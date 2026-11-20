@@ -22,7 +22,7 @@ Work in progress. Reference notes are below.
 - [Wiring and pinout](docs/wiring.md)
 - [54 V power](docs/power.md)
 - [Power sequence](docs/power-sequence.md)
-- [Straps](docs/straps.md)
+- [Topology ID](docs/topology-id.md)
 - [Results](docs/results.md)
 
 ## What works today
@@ -32,7 +32,7 @@ As of November 2026:
 - **Power-up is repeatable.** Full cycles (power up, load, power down) run clean.
 - **It does real work.** It serves an LLM and runs image generation day to day. Basic
   benchmark numbers are in [results](docs/results.md).
-- **No firmware is modified.** The hardware changes are in [straps](docs/straps.md) and
+- **No firmware is modified.** The hardware changes are in [topology ID](docs/topology-id.md) and
   [wiring](docs/wiring.md#whats-actually-wired-on-this-bench).
 
 Still open:
